@@ -69,6 +69,17 @@
         <hr class="mb-5">
         <div class="row">
           <div class="col-md-6 col-lg-4 ml-auto">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fas fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/Skeleton.png" alt="FIRST Robotics">
+            </a>
+            <h3 class="text-center font-weight-light mb-0">Machine Learning</h3>
+          </div>
+          <div class="col-md-6 col-lg-4 ml-auto">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
@@ -77,6 +88,7 @@
               </div>
               <img class="img-fluid" src="img/portfolio/Firestorm.png" alt="FIRST Robotics">
             </a>
+            <h3 class="text-center font-weight-light mb-0">Competitive Robotics</h3>
           </div>
           <div class="col-md-6 col-lg-4 mr-auto">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
@@ -87,6 +99,7 @@
               </div>
               <img class="img-fluid" src="img/portfolio/Waveform.png" alt="CAS Lab">
             </a>
+            <h3 class="text-center font-weight-light mb-0">AWS Cloud FPGAs</h3>
           </div>
         </div>
       </div>
@@ -268,6 +281,52 @@
                   </div>
                 </div>
               <p class="mb-5 text-left">I am currently working as an undergraduate research assistant at the Computer Architecture & Security Laboratory at Yale University, under Professor Jakub Szefer. My tasks primarily consist of designing hardware acceleration modules in Verilog, and then synthesizing and hosting them with Amazon EC2 F1. We are currently investigating the performance improvements that these cloud-based hardware acceleration modules can provide to cryptographic algorithms.</p>
+              <a class="btn btn-primary btn-md rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-2x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h3 class="text-secondary text-uppercase mb-0">Skeleton - Intelligent remote desktop tool developed at YHack 2018</h3>
+              <hr class="mb-5">
+                <div class="container text-center">
+                  <div class="row">
+                    <div class="col-lg-6 ml-auto">
+                      <img class="img-fluid mb-5" src="img/portfolio/Skeleton.png" alt="">
+                    </div>
+                    <div class="col-lg-5 mr-auto">
+                      <h5 class="text-secondary text-uppercase mb-0 text-left">Skills:</h5>
+                      <ul>
+                        <li class="text-left">Machine Learning</li>
+                        <li class="text-left">Image Processing</li>
+                        <li class="text-left">Text Recognition</li>
+                        <li class="text-left">Python</li>
+                      </ul>
+                      <ul class="list-unstyled">
+                      <li class="text-left list-spaced"><a class="btn btn-primary btn-md rounded-pill" href="https://github.com/AWoLnik/Skeleton">
+                        <i class="fab fa-fw fa-github"></i>
+                        View project code</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              <p class="mb-5 text-left">Skeleton aims to improve remote GUI performance by simplifying frames to their "skeletons" that are relevant for IT professionals, avoiding the need for video or image streaming. The tool accomplishes this by using a deep convolutional neural network to identify UI features in frames, and optical character recognition to pull text from frames. These essential features are then transmitted in a small JSON array, and reconstructed into a minimal GUI on the remote agent's desktop.
+              <br><br>
+              Skeleton was developed in 36 hours by a team of four at YHack 2018, Yale University's hackathon, for the Ivanti challenge for "Best Use of Machine Learning to Improve Remote Control Performance." I led a team in competing for the challenge, and we won with Skeleton! I personally did the training of the neural net and was responsibe for integrating the various parts of the project into one functional pipeline, and I oversaw and directed most other components of Skeleton. The project could certainly benefit from further training on a better data set, and implementation of interactivity in the agent GUI. It is clearly a work-in-progress from a hackathon.
+              <br><br>
+              Skeleton is built on Joseph Redmon's state-of-the-art real-time object detection system, YOLO, which you can find <a href="https://pjreddie.com/darknet/yolo/">here.</a></p>
               <a class="btn btn-primary btn-md rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
