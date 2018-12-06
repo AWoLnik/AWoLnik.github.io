@@ -355,6 +355,13 @@ a:focus, a:hover, a:active {
   background-color: #2C3E50 !important;
 }
 
+.bg-trumbull {
+  margin: 0;
+  background-image: url('../img/Trumbull.jpg');
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+
 .text-primary {
   color: #4dc1de !important;
 }
