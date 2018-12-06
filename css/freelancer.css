@@ -359,6 +359,7 @@ a:focus, a:hover, a:active {
   margin: 0;
   background-image: url('../img/Trumbull.jpg');
   background-size: cover;
+  -webkit-background-size: cover; 
   background-repeat:no-repeat;
 }
 
